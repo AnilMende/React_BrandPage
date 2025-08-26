@@ -28,6 +28,7 @@ button{
     padding: 6px 15px;
     height: 32px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 nav ul{
@@ -40,4 +41,47 @@ nav ul{
     display: flex;
     align-items: center;
     height: calc(100vh - 74px);
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.hero h1{
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 102px;
+}
+
+.hero p {
+    font-weight: 600;
+    color: rgb(61, 57, 57);
+    max-width: 400px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 40px;
+}
+
+.hero-buttons button{
+    font-size: 24px;
+}
+
+.secondary-btn{
+    background: transparent;
+    color: rgb(61, 57, 57);
+    border: 1px solid gray;
+}
+
+.shop-here p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.online-stores{
+    display: flex;
+    gap: 16px;
 }
